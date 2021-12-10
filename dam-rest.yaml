@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: "jdbc:postgresql://database:5432/data_access"
-  config:
-    import: "optional:configserver:http://localhost:9080"
+  application:
+    name: "dam"
   cloud:
     compatibility-verifier:
       enabled: false
