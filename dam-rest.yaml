@@ -3,10 +3,6 @@ spring:
     url: "jdbc:postgresql://database:5432/data_access"
   config:
     import: "optional:configserver:http://localhost:9080"
-    loadbalancer:
-      ribbon:
-        enabled: false
-    allow-override: true
   cloud:
     compatibility-verifier:
       enabled: false
